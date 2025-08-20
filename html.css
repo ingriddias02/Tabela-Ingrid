@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
 body{
 height: 100vh
@@ -21,17 +22,21 @@ table, td,th
     border-collapse: collapse;
 }
 th{
-    background-color: blueviolet;
+    background-color: rgb(0, 247, 255);
 }
-td{
-    background-color: #c2beeb;
-}
+
 caption{
     color: rgb(0, 0, 0);
     line-height: 30px;
     font-size: 40px;
 }
-tr:nth-child(5n){
+
+tr:hover{
+    background-color: rgb(80, 112, 255);
+}
+
+
+tr:nth-child(even){
     background-color: rgb(21, 102, 173);
 }
 
@@ -49,17 +54,21 @@ tr:nth-child(5n){
 </caption> 
 
 <thead>
-    <tr> 
+    <tr></tr>
+    <tr>
         <th> SEGUNDA-FEIRA </th>
         <th> TERÇA-FEIRA</th>
         <th> QUARTA-FEIRA</th>
-        
+        <th> QUINTA-FEIRA</th>
+        <th> SEXTA-FEIRA </th>
         
     </tr>
 </thead>
 <tr>
     <td> Academia</td>
      <td> Academia</td> 
+     <td> Academia</td>
+     <td> Academia</td>
      <td> Academia</td>
 
 
@@ -69,28 +78,38 @@ tr:nth-child(5n){
     <td> História</td>
 <td> Física </td>
 <td> Gramática </td>
+<td> Geografia </td>
+<td> Espanhol</td>
 </tr>
 
 <tr>
     <td> Inglês </td>
 <td> Educação Física </td>
 <td> Redação </td>
+<td> Espanhol</td>
+<td> Projeto de vida</td>
 </tr>
 
 <tr> 
     <td>Geografia</td>
     <td>Química</td>
     <td>Projeto de vida</td>
+    <td> Biologia</td>
+    <td>Redação</td>
 </tr>
 <tr>
     <td> Natação</td>
     <td>Vôlei </td>
     <td> Surf</td>
+    <td> Taiko</td>
+    <td> Corrida</td>
 </tr>
 <tr>
     <td> Basquete</td>
     <td>Corrida</td>
     <td>Karate</td>
+    <td> Surf</td>
+    <td> Vôlei</td>
 </tr>
 
     </table>
